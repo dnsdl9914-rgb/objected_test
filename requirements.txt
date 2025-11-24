@@ -1,0 +1,22 @@
+# YOLO 객체 인식 애플리케이션 필수 패키지
+
+# 웹 애플리케이션 프레임워크
+streamlit>=1.28.0
+
+# 컴퓨터 비전
+opencv-python>=4.8.0
+
+# YOLO 모델
+ultralytics>=8.0.0
+
+# 이미지 처리
+Pillow>=10.0.0
+
+# 수치 계산 (ultralytics 의존성이지만 명시적으로 추가)
+numpy>=1.24.0
+
+# PyTorch (ultralytics의 백엔드, CPU 버전)
+# GPU를 사용하려면 아래 줄을 삭제하고 PyTorch 공식 사이트에서 CUDA 버전 설치
+torch>=2.0.0
+torchvision>=0.15.0
+
